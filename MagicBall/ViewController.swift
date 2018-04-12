@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         randomMagicBall()
         
     }
+    // Shake the phone will give you the answer
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         randomMagicBall()
     }
